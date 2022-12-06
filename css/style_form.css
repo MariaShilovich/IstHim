@@ -1,0 +1,89 @@
+form { 
+    padding: 10px 20px; 
+}
+
+div.item {
+    display: flex;
+}
+
+.formOrder input {
+    height: auto;
+}
+
+label {
+    margin: 10px;
+}
+
+label:hover:not(.error) {
+    color: #ffae00;
+    text-shadow: 1px 1px 2px black;
+}
+
+div.nameCompany input,
+div.nameUser input, 
+div.email input, 
+div.telephone input, 
+div.delivery input,
+div.payment input, select {
+    width: 70%;
+    text-align: center;
+}
+
+textarea {
+    width: 70%;
+    height: 70px;
+}
+
+.item label {
+	width: 50%;
+}
+.modal-body input[type="checkbox"] {
+	margin-left: 10%;
+}
+
+div.nameCompany label, 
+div.nameUser label,
+div.email label, 
+div.telephone label,
+div.delivery label,
+div.payment label,
+div.feature label,
+label.recommend,
+label.improved,
+div.comments label {
+    width: 30%;
+}
+
+
+
+div.nameCompany, 
+div.nameUser,
+div.email, 
+div.telephone,
+div.delivery,
+div.payment,
+div.feature,
+div.comments {
+    display: flex;
+    margin: 10px 0;
+}
+
+::placeholder, select {
+    font-size: 16px;
+    padding: 10px;
+}
+
+input:hover:required, input:focus:required {
+     border: 3px solid red;
+ }
+
+ input:hover, 
+ select:hover, 
+ textarea:hover {
+    border: 1px solid #ffae00;
+}
+
+.error {
+    color: red;
+	font-size: 0.8em;
+}
